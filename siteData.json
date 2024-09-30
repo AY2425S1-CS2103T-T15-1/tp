@@ -10,8 +10,8 @@
         "john-doe": "John Doe",
         "jane-doe": "Jane Doe",
         "zachary-kang": "Zachary Kang",
-        "jean-doe": "Jean Doe",
-        "nathan-lye": "Nathan Lye"
+        "nathan-lye": "Nathan Lye",
+        "winston-lim-jun-yang": "Winston Lim Jun Yang"
       },
       "headingKeywords": {}
     },
@@ -136,8 +136,8 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
+      "src": "team/winstonlimjy.md",
+      "title": "Winston Lim Jun Yang",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
       },
