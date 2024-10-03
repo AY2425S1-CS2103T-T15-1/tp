@@ -227,7 +227,7 @@ with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
 with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-cases","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TrueRental")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
+with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TrueRental")]),_v(" system and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Add a client")])])}
@@ -236,13 +236,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: Add a client")])])}
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to add a client")])]),_v(" "),_c('li',[_c('p',[_v("User types in a command consisting various flags and options")])]),_v(" "),_c('li',[_c('p',[_v("User enters client's information")])]),_v(" "),_c('li',[_c('p',[_v("TrueRental updates new client information")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to add a client")])]),_v(" "),_c('li',[_c('p',[_v("User types in a command consisting various flags and options")])]),_v(" "),_c('li',[_c('p',[_v("User enters client's information")])]),_v(" "),_c('li',[_c('p',[_v("System updates new client information")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. TrueRental detects error for incorrect flag")]),_v(" "),_c('ul',[_c('li',[_v("2a1. TrueRental prompts error for incorrect flag used")]),_v(" "),_c('li',[_v("2a2. User enters correct flag")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. TrueRental detects error within client's information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. TrueRental prompts error for incorrect client's information")]),_v(" "),_c('li',[_v("2a2. User enters correct client's information")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3b. TrueRental detects duplicated client's information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. TrueRental prompts error for duplicated client's information")]),_v(" "),_c('li',[_v("2a2. User enters correct non-duplicated client's information")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. System detects error for incorrect flag")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for incorrect flag used")]),_v(" "),_c('li',[_v("2a2. User enters correct flag")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. System detects error within client's information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for incorrect client's information")]),_v(" "),_c('li',[_v("2a2. User enters correct client's information")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3b. System detects duplicated client's information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for duplicated client's information")]),_v(" "),_c('li',[_v("2a2. User enters correct non-duplicated client's information")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Add a client's rental information")])])}
@@ -251,13 +251,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: Add a client's rental infor
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to add rental information to a specific client")])]),_v(" "),_c('li',[_c('p',[_v("User types in a command consisting various flags and options")])]),_v(" "),_c('li',[_c('p',[_v("User enters client's rental information")])]),_v(" "),_c('li',[_c('p',[_v("TrueRental updates new client information")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to add rental information to a specific client")])]),_v(" "),_c('li',[_c('p',[_v("User types in a command consisting various flags and options")])]),_v(" "),_c('li',[_c('p',[_v("User enters client's rental information")])]),_v(" "),_c('li',[_c('p',[_v("System updates new client information")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. TrueRental detects error for incorrect flag or option")]),_v(" "),_c('ul',[_c('li',[_v("2a1. TrueRental prompts error for incorrect flag or option used")]),_v(" "),_c('li',[_v("2a2. User enters correct flag or option")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. TrueRental detects error within client's rental information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. TrueRental prompts error for incorrect client's rental information")]),_v(" "),_c('li',[_v("2a2. User enters correct client's rental information")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3b. TrueRental detects duplicated client's rental information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. TrueRental prompts error for duplicated client's rental information")]),_v(" "),_c('li',[_v("2a2. User enters correct non-duplicated client's information")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. System detects error for incorrect flag or option")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for incorrect flag or option used")]),_v(" "),_c('li',[_v("2a2. User enters correct flag or option")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. System detects error within client's rental information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for incorrect client's rental information")]),_v(" "),_c('li',[_v("2a2. User enters correct client's rental information")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3b. System detects duplicated client's rental information")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for duplicated client's rental information")]),_v(" "),_c('li',[_v("2a2. User enters correct non-duplicated client's information")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Find a person based on keyword")])])}
@@ -266,7 +266,7 @@ with(this){return _c('p',[_c('strong',[_v("Use case: Find a person based on keyw
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User enter keywords and requests to find a person")])]),_v(" "),_c('li',[_c('p',[_v("TrueRental find a list of persons matching the keywords")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User enter keywords and requests to find a person")])]),_v(" "),_c('li',[_c('p',[_v("System find a list of persons matching the keywords")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -314,6 +314,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 3 Oct 2024, 13:38:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 3 Oct 2024, 19:24:28 GMT+8]")])])])}
 }];
   
