@@ -47,13 +47,15 @@ public class FindCommandTest {
                 new EmailContainsKeywordsPredicate(Collections.singletonList("second"));
 
         FindCommand findFirstCommand = new FindCommand(firstNamePredicate, firstPhonePredicate, firstEmailPredicate);
-        FindCommand findSecondCommand = new FindCommand(secondNamePredicate, secondPhonePredicate, secondEmailPredicate);
+        FindCommand findSecondCommand = new FindCommand(secondNamePredicate, secondPhonePredicate,
+                secondEmailPredicate);
 
         // same object -> returns true
         assertTrue(findFirstCommand.equals(findFirstCommand));
 
         // same values -> returns true
-        FindCommand findFirstCommandCopy = new FindCommand(firstNamePredicate, firstPhonePredicate, firstEmailPredicate);
+        FindCommand findFirstCommandCopy = new FindCommand(firstNamePredicate, firstPhonePredicate,
+                firstEmailPredicate);
         assertTrue(findFirstCommand.equals(findFirstCommandCopy));
 
         // different types -> returns false
