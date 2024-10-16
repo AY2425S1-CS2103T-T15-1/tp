@@ -102,7 +102,7 @@ public class FindCommandTest {
 //                + "{phonePredicate=" + phonePredicate + "}"
 //                + "{emailPredicate=" + emailPredicate + "}";
 //        assertEquals(expected, findCommand.toString());
-//    }
+    //}
 
     /**
      * Parses {@code userInput} into a {@code NameContainsKeywordsPredicate}.
