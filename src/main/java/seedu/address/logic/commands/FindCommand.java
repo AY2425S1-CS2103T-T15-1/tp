@@ -17,10 +17,10 @@ public class FindCommand extends Command {
 
     public static final String COMMAND_WORD = "find";
 
-    public static final String MESSAGE_USAGE = COMMAND_WORD + ": Finds all persons whose names contain any of "
+    public static final String MESSAGE_USAGE = COMMAND_WORD + ": Finds all persons whose names, phones or emails contain any of "
             + "the specified keywords (case-insensitive) and displays them as a list with index numbers.\n"
-            + "Parameters: KEYWORD [MORE_KEYWORDS]...\n"
-            + "Example: " + COMMAND_WORD + " alice bob charlie";
+            + "Parameters: k/KEYWORD k/[MORE_KEYWORDS]...\n"
+            + "Example: " + COMMAND_WORD + " k/alice k/bob k/charlie";
 
     private final NameContainsKeywordsPredicate namePredicate;
     private final PhoneContainsKeywordsPredicate phonePredicate;
@@ -28,7 +28,7 @@ public class FindCommand extends Command {
 
     /**
      * Constructs a {@code FindCommand} with the given name, phone and email predicates.
-     * The command will find all clients whose name, phone and email matches the predicates.
+     * The command will find all clients whose name, phone or email matches the predicates.
      */
     public FindCommand(NameContainsKeywordsPredicate namePredicate, PhoneContainsKeywordsPredicate phonePredicate,
                        EmailContainsKeywordsPredicate emailPredicate) {
