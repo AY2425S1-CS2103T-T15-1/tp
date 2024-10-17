@@ -7,6 +7,10 @@ import static seedu.address.logic.Messages.MESSAGE_UNKNOWN_COMMAND;
 import static seedu.address.testutil.Assert.assertThrows;
 import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import org.junit.jupiter.api.Test;
 
 import seedu.address.logic.commands.AddClientCommand;
@@ -15,10 +19,14 @@ import seedu.address.logic.commands.DeleteCommand;
 import seedu.address.logic.commands.EditClientCommand;
 import seedu.address.logic.commands.EditClientCommand.EditPersonDescriptor;
 import seedu.address.logic.commands.ExitCommand;
+import seedu.address.logic.commands.FindCommand;
 import seedu.address.logic.commands.HelpCommand;
 import seedu.address.logic.commands.ListCommand;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.client.Client;
+import seedu.address.model.client.EmailContainsKeywordsPredicate;
+import seedu.address.model.client.NameContainsKeywordsPredicate;
+import seedu.address.model.client.PhoneContainsKeywordsPredicate;
 import seedu.address.testutil.EditPersonDescriptorBuilder;
 import seedu.address.testutil.PersonBuilder;
 import seedu.address.testutil.PersonUtil;
@@ -56,7 +64,16 @@ public class AddressBookParserTest {
         assertEquals(new EditClientCommand(INDEX_FIRST_PERSON, descriptor), command);
     }
 
-    //TODO: parseCommand_find()
+    @Test
+    public void parseCommand_find() throws Exception {
+        List<String> keywords = Arrays.asList("foo", "bar", "baz");
+        FindCommand command = (FindCommand) parser.parseCommand(
+                FindCommand.COMMAND_WORD + "k/ " + keywords.stream().collect(Collectors.joining("k/ ")));
+        assertEquals(new FindCommand(new NameContainsKeywordsPredicate(keywords),
+                new PhoneContainsKeywordsPredicate(keywords),
+                new EmailContainsKeywordsPredicate(keywords)),
+                command);
+    }
 
     @Test
     public void parseCommand_exit() throws Exception {

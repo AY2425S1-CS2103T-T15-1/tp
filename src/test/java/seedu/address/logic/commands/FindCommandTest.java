@@ -92,17 +92,17 @@ public class FindCommandTest {
         assertEquals(Arrays.asList(CARL, ELLE, FIONA), model.getFilteredPersonList());
     }
 
-    //@Test
-    //public void toStringMethod() {
-    //    NameContainsKeywordsPredicate namePredicate = new NameContainsKeywordsPredicate(Arrays.asList("keyword"));
-    //    PhoneContainsKeywordsPredicate phonePredicate = new PhoneContainsKeywordsPredicate(Arrays.asList("keyword"));
-    //    EmailContainsKeywordsPredicate emailPredicate = new EmailContainsKeywordsPredicate(Arrays.asList("keyword"));
-    //    FindCommand findCommand = new FindCommand(namePredicate, phonePredicate, emailPredicate);
-    //    String expected = FindCommand.class.getCanonicalName() + "{namePredicate=" + namePredicate + "}"
-    //            + "{phonePredicate=" + phonePredicate + "}"
-    //            + "{emailPredicate=" + emailPredicate + "}";
-    //    assertEquals(expected, findCommand.toString());
-    //}
+    @Test
+    public void toStringMethod() {
+        NameContainsKeywordsPredicate namePredicate = new NameContainsKeywordsPredicate(Arrays.asList("keyword"));
+        PhoneContainsKeywordsPredicate phonePredicate = new PhoneContainsKeywordsPredicate(Arrays.asList("keyword"));
+        EmailContainsKeywordsPredicate emailPredicate = new EmailContainsKeywordsPredicate(Arrays.asList("keyword"));
+        FindCommand findCommand = new FindCommand(namePredicate, phonePredicate, emailPredicate);
+        String expected = FindCommand.class.getCanonicalName() + "{namePredicate=" + namePredicate
+                + "phonePredicate=" + phonePredicate
+                + "emailPredicate=" + emailPredicate + "}";
+        assertEquals(expected, findCommand.toString());
+    }
 
     /**
      * Parses {@code userInput} into a {@code NameContainsKeywordsPredicate}.
