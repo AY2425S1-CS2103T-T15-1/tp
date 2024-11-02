@@ -38,7 +38,6 @@
     },
     {
       "src": "DeveloperGuide.md",
-      "title": "Developer Guide",
       "headings": {
         "truerental-developer-guide": "TrueRental Developer Guide",
         "acknowledgements": "Acknowledgements",
@@ -51,8 +50,6 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
-        "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
@@ -62,8 +59,9 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-client": "Deleting a client",
-        "saving-data": "Saving data"
+        "basic-usage": "Basic Usage",
+        "appendix-future-enhancements": "Appendix: Future Enhancements",
+        "proposed-data-archiving": "[Proposed] Data archiving"
       },
       "headingKeywords": {}
     },
