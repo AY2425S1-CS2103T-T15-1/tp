@@ -116,7 +116,7 @@
         "listing-rental-information-of-a-client-rview": "Listing rental information of a client : rview",
         "editing-a-client-cedit": "Editing a client : cedit",
         "editing-a-client-s-rental-information-redit": "Editing a client's rental information: redit",
-        "locating-clients-by-name-find": "Locating clients by name: find",
+        "locating-clients-find": "Locating clients: find",
         "deleting-a-client-cdelete": "Deleting a client : cdelete",
         "deleting-a-rental-information-rdelete": "Deleting a rental information : rdelete",
         "sorting-all-entries-sort": "Sorting all entries : sort",
