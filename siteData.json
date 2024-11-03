@@ -119,6 +119,7 @@
         "locating-clients-by-name-find": "Locating clients by name: find",
         "deleting-a-client-cdelete": "Deleting a client : cdelete",
         "deleting-a-rental-information-rdelete": "Deleting a rental information : rdelete",
+        "sorting-all-entries-sort": "Sorting all entries : sort",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-application-exit": "Exiting the application : exit",
         "saving-the-data": "Saving the data",
