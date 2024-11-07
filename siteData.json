@@ -123,6 +123,7 @@
         "locating-clients-find": "Locating clients: find",
         "deleting-a-client-cdelete": "Deleting a client : cdelete",
         "deleting-a-rental-information-rdelete": "Deleting a rental information : rdelete",
+        "sorting-all-entries-sort": "Sorting all entries : sort",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "command-history-up-arrow-key-and-down-arrow-key": "Command History: up arrow-key and down arrow-key",
         "autofill-tab-key": "Autofill: Tab key",
