@@ -553,7 +553,7 @@ Please set up the following commands before proceeding with the example inputs a
 4. Press `↑ up-arrow key` on the keyboard.
 5. Press `↑ up-arrow key` on the keyboard.
 6. Press `↑ up-arrow key` on the keyboard.
-7. Press `↑ up-arrow key` on the keyboard.<br>
+7. Press `↑ up-arrow key` on the keyboard.
 8. Press `↓ down-arrow key` on the keyboard.
 9. Press `↓ down-arrow key` on the keyboard.
 10. Press `↓ down-arrow key` on the keyboard.
