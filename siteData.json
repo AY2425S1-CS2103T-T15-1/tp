@@ -38,6 +38,7 @@
     },
     {
       "src": "DeveloperGuide.md",
+      "title": "Developer Guide",
       "headings": {
         "truerental-developer-guide": "TrueRental Developer Guide",
         "acknowledgements": "Acknowledgements",
