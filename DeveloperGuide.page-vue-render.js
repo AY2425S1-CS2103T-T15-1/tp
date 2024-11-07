@@ -14,7 +14,7 @@ with(this){return _c('p',[_c('a',{attrs:{"id":"table-of-contents"}})])}
 with(this){return _c('h2',{attrs:{"id":"acknowledgements"}},[_c('strong',[_v("Acknowledgements")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#acknowledgements","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('em',[_v("{ list here sources of all reused/adapted ideas, code, documentation, and third-party libraries -- include links to the\noriginal source as well }")])])}
+with(this){return _c('p',[_v("ChatGPT was used to create the TrueRental application logo. "),_c('a',{attrs:{"href":"/tp/images/true_rental.jpg","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/true_rental.jpg","alt":"logo"}})])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"setting-up-getting-started"}},[_c('strong',[_v("Setting up, getting started")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#setting-up-getting-started","onclick":"event.stopPropagation()"}})])}
@@ -497,6 +497,6 @@ with(this){return _c('h3',{attrs:{"id":"proposed-data-archiving"}},[_v("[Propose
 with(this){return _c('p',[_c('em',[_v("{Explain here how the data archiving feature will be implemented}")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 22:51:52 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Thu, 7 Nov 2024, 22:52:10 GMT+8]")])])])}
 }];
   
