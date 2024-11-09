@@ -108,10 +108,10 @@
       "title": "User Guide",
       "headings": {
         "truerental-user-guide": "TrueRental User Guide",
+        "table-of-contents": "Table of Contents",
         "quick-start": "Quick Start",
         "important-notes": "Important Notes",
         "command-summary": "Command Summary",
-        "important-keywords": "Important keywords",
         "parameter-constraints-table": "Parameter Constraints Table",
         "duplicate-client-detection": "Duplicate Client Detection",
         "duplicate-rental-information-detection": "Duplicate Rental Information Detection",
