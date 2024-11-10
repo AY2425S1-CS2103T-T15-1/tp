@@ -62,6 +62,8 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "basic-usage": "Basic Usage",
+        "duplicate-client-detection-and-handling": "Duplicate Client Detection and Handling",
+        "duplicate-rental-information-detection-and-handling": "Duplicate Rental Information Detection and Handling",
         "appendix-future-enhancements": "Appendix: Future Enhancements",
         "proposed-data-archiving": "[Proposed] Data archiving"
       },
