@@ -50,7 +50,7 @@ with(this){return _c('p',[_c('a',{attrs:{"href":"#common-classes"}},[_c('strong'
 with(this){return _c('p',[_c('strong',[_v("How the architecture components interact with each other")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The "),_c('em',[_v("Sequence Diagram")]),_v(" below shows how the components interact with each other for the scenario where the user issues\nthe command "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 1")]),_v(".")])}
+with(this){return _c('p',[_v("The "),_c('em',[_v("Sequence Diagram")]),_v(" below shows how the components interact with each other for the scenario where the user issues\nthe command "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("cdelete 1")]),_v(".")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_v("defines its "),_c('em',[_v("API")]),_v(" in an "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("interface")]),_v(" with the same name as the Component.")]),_v(" "),_c('li',[_v("implements its functionality using a concrete "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("{Component Name}Manager")]),_v(" class (which follows the corresponding\nAPI "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("interface")]),_v(" mentioned in the previous point.")])])}
@@ -515,6 +515,6 @@ with(this){return _c('h3',{attrs:{"id":"proposed-data-archiving"}},[_v("[Propose
 with(this){return _c('p',[_c('em',[_v("{Explain here how the data archiving feature will be implemented}")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 10:05:35 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 10:11:29 GMT+8]")])])])}
 }];
   
