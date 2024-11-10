@@ -41,6 +41,7 @@
       "title": "Developer Guide",
       "headings": {
         "truerental-developer-guide": "TrueRental Developer Guide",
+        "table-of-contents": "Table of Contents",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -64,8 +65,7 @@
         "basic-usage": "Basic Usage",
         "duplicate-client-detection-and-handling": "Duplicate Client Detection and Handling",
         "duplicate-rental-information-detection-and-handling": "Duplicate Rental Information Detection and Handling",
-        "appendix-future-enhancements": "Appendix: Future Enhancements",
-        "proposed-data-archiving": "[Proposed] Data archiving"
+        "appendix-future-enhancements": "Appendix: Future Enhancements"
       },
       "headingKeywords": {}
     },

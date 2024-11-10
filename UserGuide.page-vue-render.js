@@ -77,7 +77,7 @@ with(this){return _c('p',[_c('strong',[_v("For example:")]),_v(" All the clients
 with(this){return _c('h2',{attrs:{"id":"duplicate-rental-information-detection"}},[_v("Duplicate Rental Information Detection"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#duplicate-rental-information-detection","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Rental information is considered a "),_c('strong',[_v("duplicate")]),_v(" "),_c('strong',[_v("if and only if")]),_v(" the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ADDRESS")]),_v(" parameter is "),_c('strong',[_v("exactly the same")]),_v(", including case sensitivity.")])}
+with(this){return _c('p',[_v("Rental information is considered a "),_c('strong',[_v("duplicate")]),_v(" "),_c('strong',[_v("if and only if")]),_v(" the value of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ADDRESS")]),_v(" parameter "),_c('strong',[_v("matches exactly")]),_v(", "),_c('strong',[_v("including case sensitivity")]),_v(".")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("For example:")])])}
@@ -290,6 +290,6 @@ with(this){return _c('h2',{attrs:{"id":"known-issues"}},[_v("Known issues"),_c('
 with(this){return _c('ol',[_c('li',[_c('strong',[_v("When using multiple screens")]),_v(", if you move the application to a secondary screen, and later switch to using only the primary screen, the GUI will open off-screen. The remedy is to delete the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("preferences.json")]),_v(" file created by the application before running the application again.")]),_v(" "),_c('li',[_c('strong',[_v("If you minimize the Help Window")]),_v(" and then run the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")]),_v(" command (or use the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Help")]),_v(" menu, or the keyboard shortcut "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("F1")]),_v(") again, the original Help Window will remain minimized, and no new Help Window will appear. The remedy is to manually restore the minimized Help Window.")]),_v(" "),_c('li',[_c('strong',[_v("The commands are not case-insensitive")]),_v(". The remedy is to ensure that all commands are either capitalised or not capitalised.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 12:56:43 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sun, 10 Nov 2024, 13:00:38 GMT+8]")])])])}
 }];
   
