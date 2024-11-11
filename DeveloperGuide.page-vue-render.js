@@ -230,7 +230,7 @@ with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{st
 with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TrueRental")]),_v(" application and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified\notherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 01: Add a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])])])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-1-add-a-client"}},[_v("Use case 1: Add a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-1-add-a-client","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -245,7 +245,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. System detects error for invalid instruction")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System prompts error for invalid instruction")]),_v(" "),_c('li',[_v("3a2. User enters new instruction")]),_v(" "),_c('li',[_v("Steps 3a1-3a2 are repeated until instruction is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("3b. System detects error in "),_c('em',[_v("client")]),_v("'s information")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System prompts error for invalid "),_c('em',[_v("client")]),_v("'s information")]),_v(" "),_c('li',[_v("3b2. User enters new "),_c('em',[_v("client")]),_v("'s information")]),_v(" "),_c('li',[_v("Steps 3b1-3b2 are repeated until "),_c('em',[_v("client")]),_v("'s information is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("3c. System detects duplicated "),_c('em',[_v("client")]),_v("'s information")]),_v(" "),_c('ul',[_c('li',[_v("3c1. System prompts error for duplicated "),_c('em',[_v("client")]),_v("'s information")]),_v(" "),_c('li',[_v("3c2. User enters new non-duplicated "),_c('em',[_v("client")]),_v("'s information")]),_v(" "),_c('li',[_v("Steps 3c1-3c2 are repeated until "),_c('em',[_v("client")]),_v("'s information is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 4.")])]),_v(" "),_c('li',[_c('p',[_v("*a. At any time, user chooses not proceed on with the operation.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 02: Add a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v("'s "),_c('a',{attrs:{"href":"#glossary-rental-information"}},[_c('em',[_v("rental information")])])])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-2-add-a-client-s-rental-information"}},[_v("Use case 2: Add a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v("'s "),_c('a',{attrs:{"href":"#glossary-rental-information"}},[_c('em',[_v("rental information")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-2-add-a-client-s-rental-information","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -260,7 +260,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("4a. System detects error for invalid instruction")]),_v(" "),_c('ul',[_c('li',[_v("4a1. System prompts error for invalid instruction")]),_v(" "),_c('li',[_v("4a2. User enters new instruction")]),_v(" "),_c('li',[_v("Steps 4a1-4a2 are repeated until instruction is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 4.")])]),_v(" "),_c('li',[_c('p',[_v("4b. System detects error for invalid "),_c('em',[_v("client")])]),_v(" "),_c('ul',[_c('li',[_v("4b1. System prompts error for invalid "),_c('em',[_v("client")])]),_v(" "),_c('li',[_v("4b2. User selects new "),_c('em',[_v("client")])]),_v(" "),_c('li',[_v("Steps 4b1-4b2 are repeated until selected "),_c('em',[_v("client")]),_v(" is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 4.")])]),_v(" "),_c('li',[_c('p',[_v("4c. System detects error in "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")])]),_v(" "),_c('ul',[_c('li',[_v("4c1. System prompts error for invalid "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")])]),_v(" "),_c('li',[_v("4c2. User enters new "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")])]),_v(" "),_c('li',[_v("Steps 4c1-4c2 are repeated until "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")]),_v(" is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 4.")])]),_v(" "),_c('li',[_c('p',[_v("4d. System detects duplicated "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")])]),_v(" "),_c('ul',[_c('li',[_v("4d1. System prompts error for duplicated "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")])]),_v(" "),_c('li',[_v("4d2. User enters new non-duplicated "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")])]),_v(" "),_c('li',[_v("Steps 4d1-4d2 are repeated until "),_c('em',[_v("client")]),_v("'s "),_c('em',[_v("rental information")]),_v(" is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 5.")])]),_v(" "),_c('li',[_c('p',[_v("*a. At any time, user chooses not proceed on with the operation.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 03: Find a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])])])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-3-find-a-client"}},[_v("Use case 3: Find a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-3-find-a-client","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -275,7 +275,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. System detects error for invalid instruction")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System prompts error for invalid instruction")]),_v(" "),_c('li',[_v("3a2. User enters new instruction")]),_v(" "),_c('li',[_v("Steps 3a1-3a2 are repeated until instruction is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("3b. System detects error for invalid keyword")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System prompts error for invalid keyword")]),_v(" "),_c('li',[_v("3b2. User enters new keyword")]),_v(" "),_c('li',[_v("Steps 3b1-3b2 are repeated until keyword is valid")])]),_v(" "),_c('p',[_v("Use case continues from step 4.")])]),_v(" "),_c('li',[_c('p',[_v("4a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("*a. At any time, user chooses not proceed on with the operation.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 04: Edit a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v("'s information")])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-4-edit-a-client-s-information"}},[_v("Use case 4: Edit a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v("'s information"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-4-edit-a-client-s-information","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -290,7 +290,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. System detects error for invalid instruction.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System prompts error for invalid instruction.")]),_v(" "),_c('li',[_v("3a2. User enters new instruction.")]),_v(" "),_c('li',[_v("Steps 3a1-3a2 are repeated until the instruction is valid.")])]),_v(" "),_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("3b. System detects error for invalid "),_c('em',[_v("client")]),_v(" information.")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System prompts error for invalid "),_c('em',[_v("client")]),_v(" information.")]),_v(" "),_c('li',[_v("3b2. User enters new "),_c('em',[_v("client")]),_v(" information.")]),_v(" "),_c('li',[_v("Steps 3b1-3b2 are repeated until the "),_c('em',[_v("client")]),_v(" information is valid.")])]),_v(" "),_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("*a. At any time, User chooses not to proceed with the operation.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 05: Edit a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v("'s "),_c('a',{attrs:{"href":"#glossary-rental-information"}},[_c('em',[_v("rental information")])])])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-5-edit-a-client-s-rental-information"}},[_v("Use case 5: Edit a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v("'s "),_c('a',{attrs:{"href":"#glossary-rental-information"}},[_c('em',[_v("rental information")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-5-edit-a-client-s-rental-information","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -305,7 +305,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. System detects error for invalid instruction.")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System prompts error for invalid instruction.")]),_v(" "),_c('li',[_v("3a2. User enters new instruction.")]),_v(" "),_c('li',[_v("Steps 3a1-3a2 are repeated until the instruction is valid.")])]),_v(" "),_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("3b. System detects error for invalid "),_c('em',[_v("rental information")]),_v(".")]),_v(" "),_c('ul',[_c('li',[_v("3b1. System prompts error for invalid "),_c('em',[_v("rental information")]),_v(".")]),_v(" "),_c('li',[_v("3b2. User enters new "),_c('em',[_v("rental information")]),_v(".")]),_v(" "),_c('li',[_v("Steps 3b1-3b2 are repeated until the "),_c('em',[_v("rental information")]),_v(" is valid.")])]),_v(" "),_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("*a. At any time, User chooses not to proceed with the operation.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 06: Delete a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])])])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-6-delete-a-client"}},[_v("Use case 6: Delete a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-6-delete-a-client","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -320,7 +320,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The provided index is not valid")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for invalid index")]),_v(" "),_c('li',[_v("2a2. User enters new instruction")]),_v(" "),_c('li',[_v("Steps 2a1-2a2 are repeated until the instruction is valid")])]),_v(" "),_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("4a. User cancels the deletion")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 07: Delete a "),_c('a',{attrs:{"href":"#glossary-rental-information"}},[_c('em',[_v("rental information")])]),_v(" from a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])])])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-7-delete-a-rental-information-from-a-client"}},[_v("Use case 7: Delete a "),_c('a',{attrs:{"href":"#glossary-rental-information"}},[_c('em',[_v("rental information")])]),_v(" from a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-7-delete-a-rental-information-from-a-client","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -335,7 +335,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The provided index is not valid")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System prompts error for invalid index")]),_v(" "),_c('li',[_v("2a2. User enters new instruction")]),_v(" "),_c('li',[_v("Steps 2a1-2a2 are repeated until the instruction is valid")])]),_v(" "),_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("4a. User cancels the deletion")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 08: Re-visit previously entered commands")])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-8-revisit-previously-entered-commands"}},[_v("Use case 8: Revisit previously entered commands"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-8-revisit-previously-entered-commands","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -350,7 +350,7 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. There are no more previous command within the command history")]),_v(" "),_c('ul',[_c('li',[_v("2a1. System stays at current command")])]),_v(" "),_c('p',[_v("Use case resumes from step 3.")])]),_v(" "),_c('li',[_c('p',[_v("3a. There are no more next command within the command history")]),_v(" "),_c('ul',[_c('li',[_v("3a1. System fills command box with empty command")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case 09: Sort a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v(" list by name")])])}
+with(this){return _c('h4',{attrs:{"id":"use-case-9-sort-a-client-list-by-name"}},[_v("Use case 9: Sort a "),_c('a',{attrs:{"href":"#glossary-client"}},[_c('em',[_v("client")])]),_v(" list by name"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#use-case-9-sort-a-client-list-by-name","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
@@ -539,6 +539,6 @@ with(this){return _c('p',[_v("Currently, some long texts are truncated due to th
 with(this){return _c('h4',{attrs:{"id":"storage-related-error-handling"}},[_v("Storage Related Error Handling"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#storage-related-error-handling","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 23:42:44 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 23:44:39 GMT+8]")])])])}
 }];
   
